@@ -20,6 +20,7 @@ import {
   Appointment,
   Calendar 
 } from './styles';
+import { Link } from 'react-router-dom';
 
 interface MonthAvailabilityItem {
   day: number;
@@ -137,7 +138,7 @@ const Dashboard: React.FC = () => {
 
             <div>
               <span>Bem vindo,</span>
-              <strong>{user.name}</strong>
+              <Link to="/profile"><strong>{user.name}</strong></Link>
             </div>
           </Profile>
 

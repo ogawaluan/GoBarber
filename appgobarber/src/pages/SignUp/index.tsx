@@ -69,7 +69,7 @@ const SignUp: React.FC = () => {
       Alert.alert(
         "Registration Error",
         "Ocorreu um erro ao fazer cadastro, tente novamente"
-      )
+      );
 
     }
   }, [navigation]);
